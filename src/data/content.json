@@ -1,0 +1,115 @@
+{
+  "about": {
+    "greeting": "Hello, I'm",
+    "name": "Carlos Mario Toro Martinez",
+    "description": "A backend-oriented full stack developer with over 3 years of hands-on experience building real production systems. I focus on API-driven applications, database-centered logic, and practical architectures shaped by real business and operational constraints.",
+    "buttons": {
+      "contact": "Get In Touch",
+      "work": "View My Work"
+    }
+  },
+  "overview": {
+    "title": "Skills & Projects",
+    "description": "Technical overview of my experience building real-world software, focused on backend development, system integration, and collaborative engineering workflows.",
+    "cvButton": "Download CV"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "cards": [
+      {
+        "icon": "code",
+        "title": "Backend",
+        "description": "Node.js, Express, REST APIs, JWT authentication, microservices-oriented design, chatbot integration."
+      },
+      {
+        "icon": "database",
+        "title": "Databases & ORM",
+        "description": "PostgreSQL, SQLite, Sequelize ORM, relational data modeling, transactions and data consistency."
+      },
+      {
+        "icon": "memory",
+        "title": "DevOps & Workflow",
+        "description": "Docker (basic usage), Jenkins, CI/CD pipelines, Bitbucket, environment-based deployments."
+      },
+      {
+        "icon": "monitor",
+        "title": "Frontend",
+        "description": "React, basic TypeScript, component-based architecture, API consumption."
+      },
+      {
+        "icon": "smartphone",
+        "title": "Mobile",
+        "description": "React Native, Expo, SQLite local storage, offline-first synchronization."
+      },
+      {
+        "icon": "settings_ethernet",
+        "title": "Architecture & Process",
+        "description": "Layered architecture, separation of concerns, agile workflows, sprints, tickets, daily meetings."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "icon": "medical_services",
+        "title": "Clinical Management System",
+        "badges": ["Production", "Real Client"],
+        "description": "A clinical management system for managing appointments, medical records, prescriptions, internal chat, and role-based access for clinics.",
+        "challenge": "Handling sensitive medical data securely while integrating a chatbot to assist with internal processes and improving operational efficiency.",
+        "techStack": [
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Sequelize ORM",
+          "JWT",
+          "Chatbot Integration",
+          "Nginx"
+        ],
+        "buttons": ["Case Study"]
+      },
+      {
+        "icon": "inventory_2",
+        "title": "Inventory & Sales Management System",
+        "badges": ["Production", "SME"],
+        "description": "A backend-focused system to manage inventory, sales, purchases, cash flow, and transaction history for small businesses.",
+        "challenge": "Ensuring transactional integrity across sales, inventory updates, and financial movements using relational database transactions.",
+        "techStack": [
+          "Node.js",
+          "PostgreSQL",
+          "Sequelize ORM",
+          "REST API"
+        ],
+        "buttons": ["Case Study"]
+      },
+      {
+        "icon": "school",
+        "title": "Scientific Journals Repository – UNIPOL",
+        "badges": ["Team Project", "Academic", "CI/CD"],
+        "description": "A web platform for managing and publishing scientific journals for UNIPOL, developed collaboratively within a real software development team.",
+        "challenge": "Working within an established team structure, following agile methodologies, handling tickets, and deploying through CI/CD pipelines for testing environments.",
+        "techStack": [
+          "React",
+          "Strapi (Headless CMS)",
+          "REST API",
+          "Bitbucket",
+          "Jenkins",
+          "CI/CD",
+          "Agile (Scrum, Sprints, Dailies, Tickets)"
+        ],
+        "buttons": ["Case Study"]
+      }
+    ]
+  },
+  "footer": {
+    "status": "Open to Remote Opportunities",
+    "code": {
+      "name": "Backend / Full Stack Developer",
+      "email": "carlostorom.96@gmail.com",
+      "location": "Remote / LATAM",
+      "github": "github.com/carlosM-toro-martinez"
+    },
+    "copyright": "© 2024 Technical Portfolio",
+    "links": ["GitHub"]
+  }
+}
