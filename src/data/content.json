@@ -2,105 +2,130 @@
   "about": {
     "greeting": "Hello, I'm",
     "name": "Carlos Mario Toro Martinez",
-    "description": "A backend-oriented full stack developer with over 3 years of hands-on experience building real production systems. I focus on API-driven applications, database-centered logic, and practical architectures shaped by real business and operational constraints.",
+    "description": "Backend-oriented Full Stack Developer with 3+ years of hands-on experience building production systems for real businesses. I specialize in API-driven architectures, relational databases, system integrations, and practical microservices approaches focused on reliability, maintainability, and real operational needs.",
     "buttons": {
       "contact": "Get In Touch",
       "work": "View My Work"
     }
   },
+
   "overview": {
     "title": "Skills & Projects",
-    "description": "Technical overview of my experience building real-world software, focused on backend development, system integration, and collaborative engineering workflows.",
+    "description": "Professional experience designing and delivering real-world applications: backend APIs, integrations, automation workflows, and collaborative development using CI/CD and agile methodologies.",
     "cvButton": "Download CV"
   },
+
   "skills": {
     "title": "Technical Skills",
     "cards": [
       {
         "icon": "code",
-        "title": "Backend",
-        "description": "Node.js, Express, REST APIs, JWT authentication, microservices-oriented design, chatbot integration."
+        "title": "Backend & APIs",
+        "description": "Node.js, Express, REST APIs, JWT auth, microservices-oriented design, chatbot integration, input validation, security best practices."
       },
       {
         "icon": "database",
         "title": "Databases & ORM",
-        "description": "PostgreSQL, SQLite, Sequelize ORM, relational data modeling, transactions and data consistency."
+        "description": "PostgreSQL, SQLite, Sequelize ORM, relational modeling, transactions, data consistency, query optimization."
       },
       {
         "icon": "memory",
-        "title": "DevOps & Workflow",
-        "description": "Docker (basic usage), Jenkins, CI/CD pipelines, Bitbucket, environment-based deployments."
+        "title": "DevOps & Automation",
+        "description": "Docker, Jenkins CI/CD, Bitbucket pipelines, VPS deployments, Nginx reverse proxy, n8n automation workflows."
       },
       {
         "icon": "monitor",
         "title": "Frontend",
-        "description": "React, basic TypeScript, component-based architecture, API consumption."
+        "description": "React, component architecture, API consumption, responsive UI, basic TypeScript."
       },
       {
         "icon": "smartphone",
         "title": "Mobile",
-        "description": "React Native, Expo, SQLite local storage, offline-first synchronization."
+        "description": "React Native, Expo, SQLite offline storage, synchronization strategies."
       },
       {
         "icon": "settings_ethernet",
         "title": "Architecture & Process",
-        "description": "Layered architecture, separation of concerns, agile workflows, sprints, tickets, daily meetings."
+        "description": "Layered architecture, separation of concerns, agile workflows, Scrum, sprints, tickets, team collaboration."
       }
     ]
   },
+
   "projects": {
     "title": "Featured Projects",
     "items": [
       {
         "icon": "medical_services",
         "title": "Clinical Management System",
-        "badges": ["Production", "Real Client"],
-        "description": "A clinical management system for managing appointments, medical records, prescriptions, internal chat, and role-based access for clinics.",
-        "challenge": "Handling sensitive medical data securely while integrating a chatbot to assist with internal processes and improving operational efficiency.",
+        "badges": ["Production", "Real Client", "Integration"],
+        "description": "End-to-end platform for clinics: appointments, medical records, prescriptions, role-based access, internal messaging, and WhatsApp chatbot automation.",
+        "challenge": "Designing a secure system for sensitive medical data while integrating Meta WhatsApp API to automate appointment creation and patient communication.",
         "techStack": [
           "Node.js",
           "Express",
           "PostgreSQL",
           "Sequelize ORM",
           "JWT",
-          "Chatbot Integration",
-          "Nginx"
+          "Meta API Chatbot",
+          "Nginx",
+          "n8n Automation"
         ],
         "buttons": ["Case Study"]
       },
+
       {
         "icon": "inventory_2",
         "title": "Inventory & Sales Management System",
-        "badges": ["Production", "SME"],
-        "description": "A backend-focused system to manage inventory, sales, purchases, cash flow, and transaction history for small businesses.",
-        "challenge": "Ensuring transactional integrity across sales, inventory updates, and financial movements using relational database transactions.",
+        "badges": ["Production", "SME", "Transactions"],
+        "description": "System for managing inventory, sales, purchases and cash flow with focus on data integrity and operational control.",
+        "challenge": "Coordinating inventory updates, financial movements and sales within database transactions to prevent inconsistencies in real usage.",
         "techStack": [
           "Node.js",
           "PostgreSQL",
           "Sequelize ORM",
-          "REST API"
+          "REST API",
+          "Reporting",
+          "Role Management"
         ],
         "buttons": ["Case Study"]
       },
+
       {
         "icon": "school",
         "title": "Scientific Journals Repository – UNIPOL",
-        "badges": ["Team Project", "Academic", "CI/CD"],
-        "description": "A web platform for managing and publishing scientific journals for UNIPOL, developed collaboratively within a real software development team.",
-        "challenge": "Working within an established team structure, following agile methodologies, handling tickets, and deploying through CI/CD pipelines for testing environments.",
+        "badges": ["Team Project", "CI/CD", "Agile"],
+        "description": "Platform for managing and publishing academic journals developed in a real development team with professional workflow.",
+        "challenge": "Working with an established architecture, solving tickets, code reviews and deployments through Jenkins pipelines.",
         "techStack": [
           "React",
-          "Strapi (Headless CMS)",
+          "Strapi",
           "REST API",
           "Bitbucket",
           "Jenkins",
-          "CI/CD",
-          "Agile (Scrum, Sprints, Dailies, Tickets)"
+          "Scrum",
+          "SSR Concepts"
+        ],
+        "buttons": ["Case Study"]
+      },
+
+      {
+        "icon": "map",
+        "title": "Tourism Mobile Application",
+        "badges": ["Mobile", "Offline"],
+        "description": "Mobile app for tourism in Potosí with geolocation, offline information and interactive maps.",
+        "challenge": "Implementing map visualization and routing while supporting offline-first behavior using local storage.",
+        "techStack": [
+          "React Native",
+          "Leaflet",
+          "Mapbox",
+          "SQLite",
+          "API Integration"
         ],
         "buttons": ["Case Study"]
       }
     ]
   },
+
   "footer": {
     "status": "Open to Remote Opportunities",
     "code": {
@@ -109,7 +134,7 @@
       "location": "Remote / LATAM",
       "github": "github.com/carlosM-toro-martinez"
     },
-    "copyright": "© 2024 Technical Portfolio",
+    "copyright": "© 2025 Technical Portfolio",
     "links": ["GitHub"]
   }
 }
